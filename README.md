@@ -1,6 +1,8 @@
 # Azure ML SDK - Fashion MNIST
 
-In this workshop we will look at the lifecycle of your projects: from data, to model and model to consumption in the real world. You can follow along with code samples shared, as well as use these examples to help you replicate this workshop with your own projects after the event. 
+In this workshop we will look at the life-cycle of your projects: from data, to model and model to consumption in the real world. You can follow along with code samples shared, as well as use these examples to help you replicate this workshop with your own projects after the event. 
+
+Feedback on the content below is welcome 😊👍 please reach out to be on [Twitter: @AmyKateNicho](https://twitter.com/AmyKateNicho) or submit an [issue/pull request on github](https://github.com/amynic/azureml-sdk-fashion/blob/master/FashionMNISTImageClassification-AzureMLSDKTraining.ipynb)
 
 ## The base dataset and model
 
@@ -29,11 +31,31 @@ The code files below are listed in order of demonstration and reusability
 
 
 ### Fashion MNIST Image Classification - Model
+In the Fashion MNIST model notebook you will see the code for a standard Keras and Tensorflow Convolutional Neural Network (CNN). This symbolises the fact that the Azure ML SDK can be used and intergrated with any model, no matter what framework or setup you are using.
 
+If you run this code on your local machine, its likely to run slowly as it churns through 60,000 training images 24 times. Therefore with the Azure ML SDK I will show you how to setup your target compute and use a GPU machine to train the model quicker
+
+Run through this code to see what the model does and whats it predicting
 
 ### Fashion MNIST Image Classification - Azure ML SDK Training
 
+In this Fashion MNIST notebook we introduce how to instrument your training process with the Azure ML SDK. 
+
+This code will show how Azure ML SDK can support your machine learning project with:
+* A central repository for your machine learning project
+* Creating a cloud computer target and running your training in the cloud
+* Whilst running your training in the cloud, add logging to the code to see in real time in your notebook the outputs and progress of the training on the remote compute in the cloud
+* Saving your large datasets to azure storage so your training models can mount the data to the assigned training compute and have a 'one-source-of-truth' dataset for all your data science team to be using
+* Finally registering this model with versioning so others can leverage it easily
 
 ### Fashion MNIST Image Classification - Azure ML SDK Deployment
 
+In this Fashion MNIST notebook we introduce how to take the models you have registered and versioned, deploy them to production and monitor them 
 
+This code will show how Azure ML SDK can support your machine learning project with:
+* creating a training and scoring script for your model
+* creating a bespoke environment for your model to run in (libraries and packages to install)
+* setting up a container service to host your model
+* deploying your model to the cloud container service
+* retrieving the service scoring URL for your hosted model
+* sending test data to your hosted model to be scored and returned to compare for the accuracy of your model on your validation set
