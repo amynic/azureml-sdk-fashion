@@ -23,9 +23,9 @@ For these samples specifically I have tested:
 ## Code Files Order
 
 The code files below are listed in order of demonstration and reusability
-* Fashion MNIST Image Classification - Model.ipynb 
-* Fashion MNIST Image Classification - Azure ML SDK Training.ipynb
-* Fashion MNIST Image Classification - Azure ML SDK Deployment.ipynb
+* [FashionMNISTImageClassification-Model.ipynb](./FashionMNISTImageClassification-model.ipynb)
+* [Fashion MNIST Image Classification - Azure ML SDK Training.ipynb](./FashionMNISTImageClassification-AzureMLSDKTraining.ipynb)
+* [Fashion MNIST Image Classification - Azure ML SDK Deployment.ipynb](./FashionMNISTImageClassification-AzureMLSDKDeployment.ipynb)
 
 
 ### Fashion MNIST Image Classification - Model
