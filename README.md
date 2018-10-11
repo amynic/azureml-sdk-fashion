@@ -25,9 +25,9 @@ For these samples specifically I have tested:
 ## Code Files Order
 
 The code files below are listed in order of demonstration and reusability
-* [FashionMNISTImageClassification-Model.ipynb](./FashionMNISTImageClassification-model.ipynb)
-* [Fashion MNIST Image Classification - Azure ML SDK Training.ipynb](./FashionMNISTImageClassification-AzureMLSDKTraining.ipynb)
-* [Fashion MNIST Image Classification - Azure ML SDK Deployment.ipynb](./FashionMNISTImageClassification-AzureMLSDKDeployment.ipynb)
+* [FashionMNISTImageClassification-Model.ipynb](https://github.com/amynic/azureml-sdk-fashion/blob/master/FashionMNISTImageClassification-model.ipynb)
+* [Fashion MNIST Image Classification - Azure ML SDK Training.ipynb](https://github.com/amynic/azureml-sdk-fashion/blob/master/Fashion%20MNIST%20Image%20Classification%20-%20Azure%20ML%20SDK%20Training.ipynb)
+* [Fashion MNIST Image Classification - Azure ML SDK Deployment.ipynb](https://github.com/amynic/azureml-sdk-fashion/blob/master/Fashion%20MNIST%20Image%20Classification%20-%20Azure%20ML%20SDK%20Deployment.ipynb)
 
 
 ### Fashion MNIST Image Classification - Model
