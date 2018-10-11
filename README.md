@@ -2,7 +2,7 @@
 
 In this workshop we will look at the life-cycle of your projects: from data, to model and model to consumption in the real world. You can follow along with code samples shared, as well as use these examples to help you replicate this workshop with your own projects after the event. 
 
-Feedback on the content below is welcome 😊👍 please reach out to me on [Twitter: @AmyKateNicho](https://twitter.com/AmyKateNicho) or submit an [issue/pull request on github](https://github.com/amynic/azureml-sdk-fashion/blob/master/FashionMNISTImageClassification-AzureMLSDKTraining.ipynb)
+Feedback on the content below is welcome 😊👍 please reach out to me on [Twitter: @AmyKateNicho](https://twitter.com/AmyKateNicho) or submit an [issue/pull request on github](https://github.com/amynic/azureml-sdk-fashion/)
 
 ## The base dataset and model
 
@@ -26,8 +26,8 @@ For these samples specifically I have tested:
 
 The code files below are listed in order of demonstration and reusability
 * [FashionMNISTImageClassification-Model.ipynb](./FashionMNISTImageClassification-model.ipynb)
-* [Fashion MNIST Image Classification - Azure ML SDK Training.ipynb](./FashionMNISTImageClassification-AzureMLSDKTraining.ipynb)
-* [Fashion MNIST Image Classification - Azure ML SDK Deployment.ipynb](./FashionMNISTImageClassification-AzureMLSDKDeployment.ipynb)
+* [Fashion MNIST Image Classification - Azure ML SDK Training.ipynb](./Fashion MNIST Image Classification - Azure ML SDK Training.ipynb)
+* [Fashion MNIST Image Classification - Azure ML SDK Deployment.ipynb](./Fashion MNIST Image Classification - Azure ML SDK Deployment.ipynb)
 
 
 ### Fashion MNIST Image Classification - Model
