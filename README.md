@@ -2,7 +2,7 @@
 
 In this workshop we will look at the life-cycle of your projects: from data, to model and model to consumption in the real world. You can follow along with code samples shared, as well as use these examples to help you replicate this workshop with your own projects after the event. 
 
-Feedback on the content below is welcome 😊👍 please reach out to be on [Twitter: @AmyKateNicho](https://twitter.com/AmyKateNicho) or submit an [issue/pull request on github](https://github.com/amynic/azureml-sdk-fashion/blob/master/FashionMNISTImageClassification-AzureMLSDKTraining.ipynb)
+Feedback on the content below is welcome 😊👍 please reach out to me on [Twitter: @AmyKateNicho](https://twitter.com/AmyKateNicho) or submit an [issue/pull request on github](https://github.com/amynic/azureml-sdk-fashion/blob/master/FashionMNISTImageClassification-AzureMLSDKTraining.ipynb)
 
 ## The base dataset and model
 
