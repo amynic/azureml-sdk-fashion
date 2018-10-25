@@ -82,7 +82,7 @@ A couple of options ...
 * Or you can delete all resources created
 *  Go to your resource group in the Azure Portal (left panel 'resource groups' and select your resource group name)
 * Select 'Delete Resource group'
-* confirm by writing yes in the box
+* confirm by writing the resource group name in the box
 *  ![delete resource group](/images/deleteresources2.JPG)
 
 
