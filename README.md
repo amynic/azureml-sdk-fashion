@@ -4,6 +4,8 @@ In this workshop we will look at the life-cycle of your projects: from data, to 
 
 Feedback on the content below is welcome 😊👍 please reach out to me on [Twitter: @AmyKateNicho](https://twitter.com/AmyKateNicho) or submit an [issue/pull request on github](https://github.com/amynic/azureml-sdk-fashion/)
 
+### Always remember to delete your resources - [click here to see how](#deleting-your-resources)
+
 ## The base dataset and model
 
 The example model used in the code below is how to classify clothing into categories such as dresses, t-shirts, sandals, trainers etc. The dataset used is the Fashion MNIST dataset from Zalando the online fashion brand, find out more about this dataset here: https://github.com/zalandoresearch/fashion-mnist 
@@ -20,6 +22,9 @@ Once you have chosen an environment - follow the instructions here to configure 
 For these samples specifically I have tested:
 * [Data Science Virtual Machine](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-configure-environment#azure-notebooks-and-data-science-virtual-machine?WT.mc_id=aisummit-github-amynic) in Azure 
 * [Jupyter setup on your own machine](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-configure-environment#azure-notebooks-and-data-science-virtual-machine?WT.mc_id=aisummit-github-amynic)
+
+
+
 
 
 ## Code Files Order
@@ -59,3 +64,32 @@ This code will show how Azure ML SDK can support your machine learning project w
 * deploying your model to the cloud container service
 * retrieving the service scoring URL for your hosted model
 * sending test data to your hosted model to be scored and returned to compare for the accuracy of your model on your validation set
+
+
+# Deleting your Resources
+
+Make sure you delete the compute when you are not using it to save money
+
+A couple of options ...
+
+## Delete the compute items
+* make sure you delete the batch AI cluster and any container instances you created in your resource group.
+* Go to your resource group in the Azure Portal (left panel 'resource groups' and select your resource group name)
+* Next select the compute resources (such as the 'batch AI' cluster) and choose delete
+* ![delete batch ai](/images/deleteresources1.JPG)
+
+## Delete the whole resource group
+* Or you can delete all resources created
+*  Go to your resource group in the Azure Portal (left panel 'resource groups' and select your resource group name)
+* Select 'Delete Resource group'
+* confirm by writing yes in the box
+*  ![delete resource group](/images/deleteresources2.JPG)
+
+
+## Shutdown/Delete the Virtual Machine
+* finally you can shutdown your Virtual machine (VM)
+* In the Azure portal - navigate to the virtual machines tab
+* select the VM you created
+* click 'shutdown' or 'delete'
+*  ![shutdown vm](/images/deleteresources3.JPG)
+
